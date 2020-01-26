@@ -1,0 +1,44 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #dff9fb;
+}
+
+header{
+  background-color: #ff4757;
+  color: #dff9fb;
+  padding: 3rem;
+}
+
+header h1, header p{
+  margin: 0;
+}
+
+nav{
+  background-color: #ff6b81;
+  color: #dff9fb;
+}
+
+.topNav{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding: 1rem 3rem;
+  vertical-align: middle;
+  font-size: 16pt;
+}
+
+.navItem{
+  float: left;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.jumbotron{
+  clear:both;
+}
+
+footer{
+  background-color:#130f40;
+  padding: 3rem;
+}
