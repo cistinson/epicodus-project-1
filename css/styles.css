@@ -5,13 +5,25 @@ html, body{
 }
 
 header{
-  background-color: #ff4757;
+  background-color: #222;
   color: #dff9fb;
   padding: 3rem;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 header h1, header p{
   margin: 0;
+  align-items: center;
+}
+
+header img{
+  max-width: 125px;
+  max-height: 125px;
+  margin-right: 0.5rem;
 }
 
 .display-1{
@@ -23,7 +35,8 @@ header p{
 }
 
 nav{
-  background-color: #ff6b81;
+  clear: both;
+  background-color: #ff4757;
   color: #dff9fb;
 }
 
@@ -42,7 +55,7 @@ nav{
 }
 
 .navItem:hover{
-  background-color: #ff4757;
+  background-color: #ff6b81;
 }
 
 .navItem a{
@@ -56,9 +69,13 @@ nav{
 
 .jumbotron{
   clear:both;
+  padding: 3rem;
+  margin: 0;
+  background-color: #dff9fb;
 }
 
 footer{
-  background-color:#130f40;
+  background-color:#222;
+  color: #fff;
   padding: 3rem;
 }
