@@ -65,17 +65,28 @@ nav{
 
 .navItem a, .navItem a:hover{
   color: #fff;
+  text-decoration: none;
 }
 
 .jumbotron{
   clear:both;
   padding: 3rem;
   margin: 0;
-  background-color: #dff9fb;
+  background-color: #f8f8ff;
+}
+
+.thumbnail p, .thumbnail ul{
+  font-size: 1.75rem;
+}
+
+.thumbnail ul{
+  margin-bottom: 3rem;
 }
 
 footer{
   background-color:#222;
   color: #fff;
   padding: 3rem;
+  font-size: 1.75rem;
+  text-align: right;
 }
