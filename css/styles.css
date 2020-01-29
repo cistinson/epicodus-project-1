@@ -15,6 +15,13 @@ header{
   align-items: center;
 }
 
+header, footer{
+  background: url(../img/background.png);
+  background-repeat: repeat;
+  background-size: auto;
+
+}
+
 header h1, header p{
   margin: 0;
   align-items: center;
@@ -37,7 +44,7 @@ header p{
 nav{
   clear: both;
   background-color: #ff4757;
-  color: #dff9fb;
+  color: #f8f8ff;
 }
 
 .topNav{
@@ -75,12 +82,21 @@ nav{
   background-color: #f8f8ff;
 }
 
+.jumbotron p, .jumbotron ul, .jumbotron ol{
+  font-size: 2.15rem;
+}
+
 .thumbnail p, .thumbnail ul{
   font-size: 1.75rem;
 }
 
 .thumbnail ul{
   margin-bottom: 3rem;
+}
+
+.highlightedText{
+  font-weight: bold;
+  color: #ff4757;
 }
 
 footer{
