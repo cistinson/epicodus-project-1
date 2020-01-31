@@ -13,4 +13,4 @@ Alternatively, you can view the site on GitHub pages: https://cistinson.github.i
 
 ### License
 
-Copyright (c) 2020 **Chris Stinson**
+Copyright (c) 2020 - Chris Stinson
